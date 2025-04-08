@@ -62,10 +62,10 @@ window.onload = function () {
   
   setInterval(() => {
     const imagens = [
-      './assents/img/informacao1.png',
-      './assents/img/informacao2.png',
-      './assents/img/informacao3.png',
-      './assents/img/informacao4.png'
+      '/assents/img/informacao1.png',
+      '/assents/img/informacao2.png',
+      '/assents/img/informacao3.png',
+      '/assents/img/informacao4.png'
     ];
   
     const item = imagens[Math.floor(Math.random() * imagens.length)];
