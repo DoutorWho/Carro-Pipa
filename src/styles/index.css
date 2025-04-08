@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("/public/assents/img/fundodepopreza.png") no-repeat center center/cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+  }
+  
+  .motivation {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+    z-index: 5;
+    animation: growIn 5s ease-in-out;
+    animation-iteration-count: 10;
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  @keyframes growIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .motivation-img {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 0;
+    object-fit: contain;
+  }
+  
+  .dust {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: url('https://cdn-icons-gif.flaticon.com/6416/6416387.gif') repeat-x;
+    background-size: contain;
+    opacity: 0.3;
+    animation: dustMove 3s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes dustMove {
+    from { background-position: 0 0; }
+    to { background-position: -1000px 0; }
+  }
+  
+  /* 🌧️ EFEITO DE CHUVA */
+  .rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  .raindrop {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    animation: fall linear infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+/* Imagens */
+.emoji-flutuante {
+    position: fixed;
+    font-size: 2rem;
+    animation: flutuar 4s ease-in-out forwards;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  
+  @keyframes flutuar {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+  }
+  
+  .imagem-flutuante {
+    position: fixed;
+    width: 350px;
+    height: auto;
+    animation: subirDesaparecer 4s ease-in-out forwards;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  @keyframes subirDesaparecer {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+  }
+  
