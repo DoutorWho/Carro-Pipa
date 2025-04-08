@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
             function exibirMapa(zona) {
                 let mapaSrc = '';
                 if (zona === 'Geral') {
-                    mapaSrc = '/assents/img/mapa_total.jpg'; // Mapa geral
+                    mapaSrc = './assents/img/mapa_total.jpg'; // Mapa geral
                     mapaTitulo.textContent = 'Mapa Geral'; // Muda o título para "Mapa Geral"
                 } else {
                     switch (zona) {
