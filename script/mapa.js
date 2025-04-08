@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Carregar o arquivo JSON
-    fetch('/json/regioes.json')
+    fetch('./json/regioes.json')
         .then(response => response.json())
         .then(data => {
             // Obter todos os botões das zonas e o botão "Mostrar Tudo"
@@ -54,23 +54,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else {
                     switch (zona) {
                         case 'Região Sul':
-                            mapaSrc = '/assents/img/zona_sul.jpg';
+                            mapaSrc = './assents/img/zona_sul.jpg';
                             mapaTitulo.textContent = `Mapa Região Sul`; // Muda o título para a zona
                             break;
                         case 'Zona Norte Superior':
-                            mapaSrc = '/assents/img/zona_norte_superior.jpg';
+                            mapaSrc = './assents/img/zona_norte_superior.jpg';
                             mapaTitulo.textContent = `Mapa Zona Norte Superior`;
                             break;
                         case 'Zona Central':
-                            mapaSrc = '/assents/img/zona_central.jpg';
+                            mapaSrc = './assents/img/zona_central.jpg';
                             mapaTitulo.textContent = `Mapa Zona Central`;
                             break;
                         case 'Zona Oeste':
-                            mapaSrc = '/assents/img/zona_oeste.jpg';
+                            mapaSrc = './assents/img/zona_oeste.jpg';
                             mapaTitulo.textContent = `Mapa Zona Oeste`;
                             break;
                         case 'Zona Norte':
-                            mapaSrc = '/assents/img/zona_norte.jpg';
+                            mapaSrc = './assents/img/zona_norte.jpg';
                             mapaTitulo.textContent = `Mapa Zona Norte`;
                             break;
                         default:
