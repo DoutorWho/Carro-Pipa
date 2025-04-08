@@ -149,7 +149,7 @@ const dados = {
   
       html += `
         <div class="rota animar">
-          <img src="/assents/img/estrada_animacao.jpg" alt="Ícone Rota", style="height: 80px; width: 500px;">
+          <img src="./assents/img/estrada_animacao.jpg" alt="Ícone Rota", style="height: 80px; width: 500px;">
           <h4>${rota.rota}</h4>
           <p><strong>Tempo em minutos:</strong> ${rota.tempoM}</p>
           <p><strong>Valor do frete:</strong> ${formatarValor(rota.frete)}</p>
