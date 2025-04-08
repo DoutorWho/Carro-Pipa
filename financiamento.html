@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento - Pipa</title>
+    <link rel="stylesheet" href="/styles/financiamento.css">
+    <script src="/script/financiamento.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>🚛 Distribuição de Água - PIPA</h1>
+        <nav>
+            <ul>
+                <li><a href="paginainicial.html">🏠 Início</a></li>
+                <li><a href="mapa.html">🗺️ Mapa Operacional</a></li>
+                <li><a href="financiamento.html">💲 Custo & Financiamento</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1_HOWwjQFgB0I5bYwV-AnvZ646lAfmm0d/edit?usp=sharing&ouid=105382934873822569466&rtpof=true&sd=true">📊 Visualizar Dados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="resumo">
+            <h2>Resumo dos Últimos 30 Dias</h2>
+            <div class="dados">
+                <div class="box">
+                    <h3>Total de água Sanitária sobrando</h3>
+                    <p id="combustivelTotal">256,38 litros</p>
+                </div>
+                <div class="box">
+                    <h3>Total de frete gasto</h3>
+                    <p id="freteTotal">R$ 150.915,00</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="filtro-container">
+            <h3>Filtrar por Região</h3>
+            <select id="regiaoSelect">
+                <option value="0" selected disabled hidden>Selecione a região</option>
+              </select>
+          </div>
+
+          <section id="detalhes" class="detalhes">
+            <h2>Detalhes da Região</h2>
+            <div id="detalhesRegiao">
+              <p>Selecione uma região para visualizar os dados.</p>
+            </div>
+          </section>
+
+          
+          <div id="totalRegiao" class="total-regiao">
+        </div>
+    
+        
+    </main>
+</body>
+</html>

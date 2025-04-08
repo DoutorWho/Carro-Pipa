@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa da Cidade</title>
+    <link rel="stylesheet" href="/styles/mapa.css">
+    <script src="/script/mapa.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🚛 Distribuição de Água - PIPA</h1>
+        <nav>
+            <ul>
+                <li><a href="paginainicial.html">🏠 Início</a></li>
+                <li><a href="mapa.html">🗺️ Mapa Operacional</a></li>
+                <li><a href="financiamento.html">💲 Custo & Financiamento</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1_HOWwjQFgB0I5bYwV-AnvZ646lAfmm0d/edit?usp=sharing&ouid=105382934873822569466&rtpof=true&sd=true">📊 Visualizar Dados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mapa">
+        <div id="introducao">
+            <p>Este mapa exibe as zonas da cidade. Escolha uma zona para explorar mais detalhes sobre as cidades, como capacidade de reservatório e número de habitantes.</p>
+        </div>
+
+        <div id="zonas">
+            <button class="mostrar-tudo" data-zona="mostrar-tudo">Mostrar Tudo</button>
+            <button class="zona" data-zona="Zona Norte Superior">Zona Norte Superior (Priscila)</button>
+            <button class="zona" data-zona="Zona Central">Zona Central (Elder)</button>
+            <button class="zona" data-zona="Zona Oeste">Zona Oeste (Everton)</button>
+            <button class="zona" data-zona="Zona Norte">Zona Norte (Lucas)</button>
+            <button class="zona" data-zona="Região Sul">Região Sul (Marcelo)</button>
+        </div>
+
+        <div id="mapa-geral">
+            <h2>Mapa Geral</h2>
+            <div id="mapa-container">
+                <!-- Aqui você pode incluir o mapa, como um mapa estático ou interativo. -->
+                <p>Mapa geral da cidade (aqui você pode integrar um mapa, por exemplo, usando a API do Google Maps).</p>
+            </div>
+        </div>
+
+        <div id="detalhes">
+            <h2 id="zona-selecionada">Detalhes da Zona</h2>
+            <div id="detalhes-cidades">
+                <!-- Detalhes das cidades da zona selecionada aparecerão aqui. -->
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

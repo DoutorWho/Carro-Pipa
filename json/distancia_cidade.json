@@ -1,0 +1,31 @@
+{
+    "LR_001": {
+        "Engloba": ["LR_105_0", "LR900_1", "LR_200_1"],
+        "distancia": 4.0
+    },
+    "LR_100": {
+        "Engloba": ["LR_105"],
+        "distancia": 2
+    },
+    "LR_105": {
+        "Engloba": ["LR_100_0", "LR_001_0", "LR_200_1", "LR_900_1"],
+        "distancia": 3
+    },
+    "LR_200": {
+        "Engloba": ["LR_001_0", "LR_105_0", "LR_900_1", "LR_205_1", "LR_105_0", "LR_900_1", "LR_001_0"],
+        "distancia": 5
+    },
+    "LR_205": {
+        "Engloba": ["LR_205_1", "LR_210_1", "LR_400_1"],
+        "distancia": 3
+    },
+    "LR_210": {
+        "Engloba": ["LC_100_1", "LR_215_1"],
+        "distancia": 2
+    },
+    "LR_220": {
+        "Engloba": ["LC_100_1", "LR_215_1", "LR_225_1", "LR_210"],
+        "distancia": 2
+    }
+}
+    

@@ -1,0 +1,185 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e272e;
+    color: #ecf0f1;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 3.2em;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #00a8ff;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6) contrast(1.1);
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-overlay h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  /* Seções */
+  section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #00a8ff;
+    text-align: center;
+  }
+  
+  /* Info blocks */
+  .info-block,
+  .mission-block,
+  .info-detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .info-block img,
+  .mission-block img {
+    flex: 1 1 300px;
+    max-width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+    filter: brightness(0.95) contrast(1.1);
+  }
+  
+  .info-block div,
+  .mission-block div {
+    flex: 2;
+    background: #2f3640;
+    padding: 20px;
+    border-left: 6px solid #00a8ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  /* Responsividade básica */
+  @media (max-width: 768px) {
+    .info-block,
+    .mission-block,
+    .info-detalhes {
+      flex-direction: column;
+    }
+  
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    .hero {
+      height: 250px;
+    }
+  }
+  
+/* Bloco de Informações do Caminhão */
+.bloco-informacoes {
+    background-color: #2f3640;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+  }
+  
+  .bloco-informacoes h3 {
+    color: #00a8ff;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00a8ff;
+    padding-bottom: 10px;
+  }
+  
+  .bloco-informacoes p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #dcdde1;
+  }
+  
+  .bloco-informacoes ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .bloco-informacoes ul li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .bloco-informacoes ul li::before {
+    content: "📌";
+    position: absolute;
+    left: 0;
+    color: #00a8ff;
+  }
