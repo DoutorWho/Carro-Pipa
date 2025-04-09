@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     switch (zona) {
                         case 'Zona Sul':
                             mapaSrc = './assents/img/zona_sul.jpg';
-                            mapaTitulo.textContent = `Mapa Região Sul`; // Muda o título para a zona
+                            mapaTitulo.textContent = `Mapa Zona Sul`; // Muda o título para a zona
                             break;
                         case 'Zona Norte Superior':
                             mapaSrc = './assents/img/zona_norte_superior.jpg';
