@@ -63,6 +63,7 @@ A **distribuição de água potável** em regiões vulneráveis vai muito além 
 - ⚙️ **JavaScript** – interações e efeitos dinâmicos  
 - 📊 **Excel** – apoio aos cálculos e planejamento dos dados  
 
+---
 
 <h2 align="center">🌐 Acesse o Projeto</h2>
 
@@ -78,4 +79,4 @@ A **distribuição de água potável** em regiões vulneráveis vai muito além 
 
 ---
 
-> **Desenvolvido com 💙 para transformar realidades com água, logística e tecnologia.**
+> **Desenvolvido com 💙 pela equipe Senasa!**
