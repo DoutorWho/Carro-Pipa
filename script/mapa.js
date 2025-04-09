@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 let cidades;
                 if (zona === 'Geral') {
                     // Exibe todas as cidades
-                    cidades = { ...data['Região Sul'], ...data['Zona Norte Superior'], ...data['Zona Central'], ...data['Zona Oeste'], ...data['Zona Norte'] };
+                    cidades = { ...data['Zona Sul'], ...data['Zona Norte Superior'], ...data['Zona Central'], ...data['Zona Oeste'], ...data['Zona Norte'] };
                 } else {
                     cidades = data[zona];
                 }
