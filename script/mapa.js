@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     mapaTitulo.textContent = 'Mapa Geral'; // Muda o título para "Mapa Geral"
                 } else {
                     switch (zona) {
-                        case 'Região Sul':
+                        case 'Zona Sul':
                             mapaSrc = './assents/img/zona_sul.jpg';
                             mapaTitulo.textContent = `Mapa Região Sul`; // Muda o título para a zona
                             break;
