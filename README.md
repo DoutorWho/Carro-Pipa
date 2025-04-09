@@ -65,7 +65,7 @@ A **distribuição de água potável** em regiões vulneráveis vai muito além 
 
 ---
 
-<h2 align="center">🌐 Acesse o Projeto</h2>
+<h2 align="center">🌐 Acesse o site</h2>
 
 <p align="center">
   <a href="https://doutorwho.github.io/Carro-Pipa/" title="Acessar o site">
