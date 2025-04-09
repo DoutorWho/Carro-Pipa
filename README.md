@@ -34,7 +34,7 @@ Este projeto visa demonstrar, de forma interativa, a importância da **logístic
 
 ## 🌍 Impacto Social e Importância
 
-A **distribuição de água potável** em regiões vulneráveis vai muito além da logística – trata-se de **dignidade, saúde e vida**. Este projeto representa:
+A **distribuição de água potável** em regiões vulneráveis vai muito além da logística – trata-se de **dignidade, saúde e vida**. 
 
 ### 💡 Transformação Real na Vida de Centenas de Pessoas:
 
