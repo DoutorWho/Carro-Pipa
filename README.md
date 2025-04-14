@@ -80,3 +80,6 @@ A **distribuição de água potável** em regiões vulneráveis vai muito além 
 ---
 
 > **Desenvolvido com 💙 pela equipe Senasa!**
+## 📜 Licença
+
+Este projeto está licenciado sob a MIT License. Sinta-se livre para usar, modificar e distribuir. Aproveite para aprender e criar sua própria versão! 💻🚀
